@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vh;
+}
+
+#title {
+    font-family: 'Poppins' ,sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    text-align: center;
+    color: #380b61;
+    margin-top: 2%;
+}
+
+#subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #380b61;
+    /* margin-left: 10%; */
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background: linear-gradient(320deg, #dce1b4, #7f9cc7, #B7B7B7);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em; 
+    color: #59429d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 10px #111111;
+    backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.30);
+    flex-basis: 400px;
+    height: 100%;
+    width: 40rem;
+    padding: 20px 40px;
+    margin-bottom: 3%;
+    
+}
+
+input, select, textarea, button {
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: #59429d;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+}
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+    padding: 0.2em;
+    margin-top: 1em;
+}
+
+.campo label{
+    margin-bottom: .2em;
+    color: #59429d;
+    display: block;
+}
+
+fieldset .grupo .campo {
+    float:  left;
+    margin-right: 2em;
+}
+
+.campo textarea {
+    padding: 2em 6em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px #00000033;
+}
+
+.grupo input[type="text"], .campo input[type="email"]  {
+    padding: .1em 3em .1em 0;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px #00000033;
+} 
+
+.campo select {
+    padding: 0 1em;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #e0e0f8;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin: 2em 0;
+    color: #fff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px #00000033;
+    text-shadow: 1px 1px 1px #00000033;
+    position: absolute;
+    top: 90%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover {
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px #00000033;
+    text-shadow: none;
+}
+
+#check {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.botao, select {
+    cursor: pointer;
+}
+
+.grupo1 {
+    display: flex;
+    padding: 0.1em;
+
+}
